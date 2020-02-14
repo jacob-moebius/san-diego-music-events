@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EventDetailsActivity">
+
+    <ImageView
+        android:id="@+id/eventImageView"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/image_view_content"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/eventArtistTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/eventArtistTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/sample_text"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/eventDateDayTextView"
+        app:layout_constraintEnd_toEndOf="@+id/eventImageView"
+        app:layout_constraintStart_toStartOf="@+id/eventImageView"
+        app:layout_constraintTop_toBottomOf="@+id/eventImageView" />
+
+    <TextView
+        android:id="@+id/eventDateDayTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/sample_text"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/eventArtistTextView"
+        app:layout_constraintStart_toStartOf="@+id/eventArtistTextView"
+        app:layout_constraintTop_toBottomOf="@+id/eventArtistTextView" />
+
+    <TextView
+        android:id="@+id/eventTimeTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/sample_text"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@id/eventArtistTextView"
+        app:layout_constraintStart_toStartOf="@id/eventArtistTextView"
+        app:layout_constraintTop_toBottomOf="@+id/eventDateDayTextView" />
+
+    <TextView
+        android:id="@+id/eventVenueTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/sample_text"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/eventArtistTextView"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/eventArtistTextView"
+        app:layout_constraintTop_toBottomOf="@+id/eventTimeTextView" />
+
+    <TextView
+        android:id="@+id/eventCityTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/sample_text"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/eventArtistTextView"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/eventArtistTextView"
+        app:layout_constraintTop_toBottomOf="@+id/eventVenueTextView" />
+
+    <TextView
+        android:id="@+id/eventStateTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/sample_text"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/eventArtistTextView"
+        app:layout_constraintStart_toStartOf="@+id/eventArtistTextView"
+        app:layout_constraintTop_toBottomOf="@+id/eventCityTextView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

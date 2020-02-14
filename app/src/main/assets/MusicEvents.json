@@ -1,0 +1,84 @@
+{
+  "MusicEvents" : [
+    {
+      "Artist" : "Justin Timberlake",
+      "Date" : "February 20",
+      "Day" : "Thursday",
+      "Time" : "8:00 PM",
+      "Venue" : "Pechanga Arena",
+      "City" : "San Diego",
+      "State" : "CA",
+      "ImageName" : "JustinTimberlake.png"
+    },
+    {
+      "Artist" : "Blues Traveler",
+      "Date" : "February 27",
+      "Day" : "Thursday",
+      "Time" : "7:00 PM",
+      "Venue" : "House of Blues",
+      "City" : "San Diego",
+      "State" : "CA",
+      "ImageName" : "BluesTraveler.png"
+    },
+    {
+      "Artist" : "Gladys Knight",
+      "Date" : "March 7",
+      "Day" : "Saturday",
+      "Time" : "8:00 PM",
+      "Venue" : "Pechanga Resort and Casino",
+      "City" : "Temecula",
+      "State" : "CA",
+      "ImageName" : "GladysKnight.png"
+    },
+    {
+      "Artist" : "Ariana Grande",
+      "Date" : "April 10",
+      "Day" : "Friday",
+      "Time" : "3:30 AM",
+      "Venue" : "Coachella 2020",
+      "City" : "Indio",
+      "State" : "CA",
+      "ImageName" : "ArianaGrande.png"
+    },
+    {
+      "Artist" : "Goo Goo Dolls",
+      "Date" : "June 12",
+      "Day" : "Friday",
+      "Time" : "7:00 PM",
+      "Venue" : "North Island Amphitheatre",
+      "City" : "Chula Vista",
+      "State" : "CA",
+      "ImageName" : "GooGooDolls.png"
+    },
+    {
+      "Artist" : "Rebelution",
+      "Date" : "June 12",
+      "Day" : "Friday",
+      "Time" : "7:00 PM",
+      "Venue" : "North Island Amphitheatre",
+      "City" : "Chula Vista",
+      "State" : "CA",
+      "ImageName" : "Rebelution.png"
+    },
+    {
+      "Artist" : "Carlos Santana",
+      "Date" : "June 21",
+      "Day" : "Sunday",
+      "Time" : "7:00 PM",
+      "Venue" : "North Island Amphitheatre",
+      "City" : "Chula Vista",
+      "State" : "CA",
+      "ImageName" : "CarlosSantana.png"
+    },
+    {
+      "Artist" : "Ozzy Osbourne",
+      "Date" : "July 21",
+      "Day" : "Tuesday",
+      "Time" : "7:30 PM",
+      "Venue" : "North Island Amphitheatre",
+      "City" : "Chula Vista",
+      "State" : "CA",
+      "ImageName" : "OzzyOsbourne.png"
+    }
+  ]
+}

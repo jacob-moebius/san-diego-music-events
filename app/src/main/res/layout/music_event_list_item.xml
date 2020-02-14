@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/musicEventListLinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true"
+    android:onClick="openEventDetails"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/musicEventListImageView"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:contentDescription="@string/image_view_content"
+        android:padding="4dp"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/musicEventListTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:text="@string/sample_text"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/musicEventListDateTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:text="@string/sample_text"
+            android:textSize="18sp" />
+    </LinearLayout>
+</LinearLayout>

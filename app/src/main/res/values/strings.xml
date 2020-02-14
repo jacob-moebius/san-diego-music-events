@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">San Diego Music Events</string>
+    <string name="sample_text">Sample Text</string>
+    <string name="image_view_content">Musician from current event</string>
+</resources>
